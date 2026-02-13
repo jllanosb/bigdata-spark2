@@ -1,0 +1,15 @@
+# Iniciar servicios Terminal
+start-dfs.sh
+start-yarn.sh
+hive --service metastore &
+sleep 10
+hive --service hiveserver2 &
+
+# Acceder a la carpeta del proyecto
+code ~/bigdata-spark2
+
+# Dar permisos al script
+chmod +x run.sh
+
+# Ejecutar
+./run.sh
