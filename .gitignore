@@ -1,0 +1,15 @@
+# Variables Secret
+.env
+
+# Entorno Virtual
+venv
+venv/
+.venv
+.venv/
+myenv
+myenv/
+
+# Archivos Temporales
+*.pyc
+__pycache__/
+.DS_Store
